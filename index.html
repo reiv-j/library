@@ -8,6 +8,36 @@
 </head>
 <body>
     <h1>Library</h1>
+
+    <button id="open-dialog-btn">New book</button>
+    <dialog class="modal">
+        <form action="">
+            <div>
+                <label for="title">Title: </label>
+                <input id="title" name="title" type="text">
+            </div>
+            
+            <div>
+                <label for="author">Author</label>
+                <input id="author" name="author" type="text">
+            </div>
+
+            <div>
+                <label for="pages">Pages</label>
+                <input id="pages" name="pages" type="number">
+            </div>
+
+            <div>
+                <label for="read">Read</label>
+                <select name="read" id="read">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+        </form>
+        <button id="close-dialog-btn">Close</button>
+    </dialog>
+
     <div class="library-container">
         
     </div>

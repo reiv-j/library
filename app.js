@@ -81,3 +81,15 @@ function displayLibrary() {
 }
 
 displayLibrary();
+
+const openDialogBtn = document.querySelector("#open-dialog-btn")
+const closeDialogBtn = document.querySelector("#close-dialog-btn")
+const modal = document.querySelector(".modal");
+
+openDialogBtn.addEventListener("click", function() {
+    modal.show();
+})
+
+closeDialogBtn.addEventListener("click", function() {
+    modal.close();
+})
