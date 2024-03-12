@@ -4,7 +4,49 @@ const myLibrary = [
         author: "George RR Martin",
         pages: 824,
         read: true,
-    }
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
+    {
+        title: "Game of Thrones",
+        author: "George RR Martin",
+        pages: 824,
+        read: true,
+    },
 ];
 
 function addBookToLibrary(book) {
@@ -37,3 +79,5 @@ function displayLibrary() {
         libraryContainer.appendChild(card);
     })
 }
+
+displayLibrary();
