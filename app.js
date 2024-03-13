@@ -53,7 +53,7 @@ const closeDialogBtn = document.querySelector("#close-dialog-btn")
 const modal = document.querySelector(".modal");
 
 openDialogBtn.addEventListener("click", function() {
-    modal.showModal();
+    modal.show();
 })
 
 closeDialogBtn.addEventListener("click", function() {

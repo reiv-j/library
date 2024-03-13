@@ -6,10 +6,16 @@ body {
     align-items: center;
 }
 
-header {
+nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+}
+
+nav h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3em;
+    margin-left: 0.5em;
 }
 
 .library-container {
@@ -37,14 +43,20 @@ header {
 }
 
 .card h2 {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    font-size: 1.6em;
+    margin: 1.3em 0.3em 0;
 }
 
 dialog {
-    width: 350px;
-    border-radius: 8px;
-    background-color: #FAEDCD;
+    color: #3F2A27;
+    border: 2px solid #84A59D;
+    border-radius: 5px;
+    background-color: #F5CAC3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: right;
+    padding: 1em;
+    width: 24em;
+    position: absolute;
 }
 
 
